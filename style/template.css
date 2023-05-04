@@ -35,8 +35,8 @@ header {
 }
 
 .qr-footer{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     float: right;
 }
 
@@ -124,4 +124,28 @@ nav{
 
 .lorem-ipsum-void{
     color: #FFFFFF;
+}
+
+.faq-body {
+    border-radius: 50px;
+    background-color: #0E0F1C;
+    padding: 20px;
+    width: 80vw;
+
+}
+
+.faq-list{
+    list-style-type: none;
+}
+
+.faq-list-item {
+    border: #00EEEE 1px solid;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.faq-warning {
+    border: red 1px solid;
+    padding: 15px;
+    border-radius: 20px;
 }
