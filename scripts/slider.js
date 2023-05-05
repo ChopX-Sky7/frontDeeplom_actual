@@ -1,4 +1,6 @@
-let activeSlide = 0;
+
+
+/*let activeSlide = 0;
 const slides = document.getElementsByClassName("slide");
 const prevBtn = document.getElementById('prev');
 const nextBtn = document.getElementById('next');
@@ -31,4 +33,4 @@ nextBtn.addEventListener("click", function() {
         activeSlide++;
     }
     showSlide(activeSlide);
-});
+});*/
