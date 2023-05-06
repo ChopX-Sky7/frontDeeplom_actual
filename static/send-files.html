@@ -13,14 +13,15 @@
           rel="stylesheet">
 </head>
 <body>
-<header class="container-fluid">
+
+<header class="container-fluid d-none d-lg-block">
     <div class="row h-auto vh-25">
         <div class="col d-flex justify-content-center align-items-center">
-            <img src="/img/svg/logo.svg" alt="Logo" class="img-fluid logo"><br>
+            <img src="/img/svg/logo.svg" alt="Logo" class="img-fluid logo" href="https://t.me/regulexper"><br>
             <h1 class="text-center mx-3 my-0 head-text">Рукастые ребята со светлыми лицами</h1>
         </div>
         <nav>
-            <ul id="nav3">
+            <ul id="nav-lg">
                 <li><a href="index.html">Главная</a></li>
                 <li><a href="files.html">Файлы</a></li>
                 <li><a href="files.html">Мерч</a></li>
@@ -28,6 +29,34 @@
         </nav>
     </div>
 </header>
+
+<header class="d-block d-sm-block d-md-block d-lg-none mobile-header">
+    <div class="row h-auto vh-25">
+        <div class="col-12 d-flex justify-content-center align-items-center" >
+            <img src="/img/svg/logo.svg" alt="Logo" class="img-fluid logo"><br>
+        </div>
+        <div class="col-12 d-flex justify-content-center align-items-center">
+            <h1 class="text-center text-white mx-3 my-0 head-text-mobile">Рукастые ребята со светлыми лицами</h1>
+        </div>
+
+        <div class="row d-flex justify-content-center align-items-center mx-auto">
+
+            <div class="col-12 d-flex justify-content-center align-items-center mobile-nav-item">
+                <a href="index.html" class="mobile-nav-a text-white">Главная</a>
+            </div>
+
+            <div class="col-12 d-flex justify-content-center align-items-center mobile-nav-item">
+                <a href="files.html" class="mobile-nav-a text-white">Файлы</a>
+            </div>
+
+            <div class="col-12 d-flex justify-content-center align-items-center mobile-nav-item">
+                <a href="files.html" class="mobile-nav-a text-white">Мерч</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+
 <div class="container">
     <div class="form-wrapper form">
         <div class="form-header"><p class="header-text  text-white text-center">Вы можете внести свой вклад в Победу,
