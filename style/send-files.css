@@ -3,7 +3,7 @@
 }
 
 .header-text{
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -61,7 +61,7 @@
     font-size: 15px;
     line-height: 125.52%;
     letter-spacing: 0.085em;
-    color: #FFFFFF;
+
     border-radius: 11px 11px 11px 11px ;
     margin: 15px;
     color: transparent;
@@ -78,3 +78,25 @@
     padding: 10px;
 }
 
+.dummy {height: auto; background-color: #0E0F1C}
+
+.description-title{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125.52%;
+    /* or 50px */
+    opacity: 40%;
+
+    letter-spacing: 0.085em;
+
+
+}
+
+.submit-mobile{
+    background: #FFFFFF;
+    border-radius: 11px;
+    border: 1px solid black;
+    padding: 10px;
+}
