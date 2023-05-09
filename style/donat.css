@@ -94,3 +94,22 @@
     height: 450px;
 }
 
+.form-mobile{
+    background-color: #0E0F1C;
+    padding: 20px;
+}
+
+.btn-m{
+    background-color: #0077C2 ;
+    box-shadow: none;
+    border-radius: 11px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 25px;
+    width: 25%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify-all;
+
+}

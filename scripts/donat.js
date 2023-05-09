@@ -6,9 +6,14 @@ let divQiwi = document.getElementById("qiwi-div");
 let divSber = document.getElementById("sber-div");
 let divEther = document.getElementById("ether-div");
 
+
 let btnQiwi = document.getElementById("qiwi-btn");
 let btnSber = document.getElementById("sber-btn");
 let btnEther = document.getElementById("ether-btn");
+
+let btnQiwiM = document.getElementById("qiwi-btn-m");
+let btnSberM = document.getElementById("sber-btn-m");
+let btnEtherM = document.getElementById("ether-btn-m");
 
 let elems = document.getElementsByClassName("btn");
 function setBorder(btnMain, btn1, btn2){
@@ -48,4 +53,13 @@ function copyTxtS() {
     var copyText = document.getElementById("copy-txt-s");
     copyText.select();
     navigator.clipboard.writeText(copyText.value);
+}
+
+function copyTxtEM() {
+    navigator.clipboard.writeText("0x2aBbC8B87a5DF4721F2445889a843DFeDf78aDf7");
+    alert("Реквизиты скопированы!\nСпасибо за вашу поддержку.");
+}
+function copyTxtSM() {
+    navigator.clipboard.writeText("4276380243534927");
+    alert("Реквизиты скопированы!\nСпасибо за вашу поддержку.");
 }
